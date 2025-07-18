@@ -25,16 +25,11 @@ showZenMode: false
     subheader="Software Engineer 2">}} 
 <ul>
 <li>
-<b style="color:#bef264">Box Integration</b>: Designed and developed a microservice to sync and ingest Box file content and metadata into
-Alphasense using a single workspace account. Built a dual-variant microservice: a web server variant for registering
-sync, associating metadata from Alphasense, and clearing synced data, and a processing variant with multithreaded
-workers to queue and process sync tasks efficiently. Integrated Box Events API to enable delta sync for real-time
-content and metadata updates. Optimized worker execution to enhance scalability and responsiveness.
+<b style="color:#bef264">Integrations</b>: Contributed toward development of extensions for third party document management tools to ingest document within Alphasense and keep them in sync with origin in real time.
 </li>
 <li>
-<b style="color:#bef264">Token Encryption</b>: Enhanced security by migrating production client tokens to encrypted storage using a
-vault-stored encryption key. Designed and executed a Python-based migration script integrated into scheduled
-maintenance workflows.
+<b style="color:#bef264">Security Improvements</b>: Enhanced security around storage of user tokens for third party apps by developing encrypted storage system. 
+Existing production users were migrated to encrypted version without any impact or downtime.
 </li>
 </ul>
   {{< /timelineItem >}}
@@ -45,16 +40,11 @@ maintenance workflows.
     subheader="Software Engineer" >}}
 <ul>
 <li>
-<b style="color:#bef264">Citadel Migration</b>: Built scalable ingestion scripts to transform and migrate data from product VPCs to private
-VPCs. Implemented entity mapping via JSON configurations to standardize data across systems, allowing seamless
-execution through a single bash script.
-</li>
-<li>
-<b style="color:#bef264">Sentieo to Alphasense Migration</b>: Designed and developed a migration system enabling account managers to
-sync Sentieo client data to Alphasense. Built a FastAPI backend that supports APIs for sync management, data
-clearing, and reporting, with a Retool-based front end for intuitive control. Optimized scheduled sync scripts for
-parallel execution, achieving high throughput and ensuring data integrity. Implemented daily migration reports to
-track entity-level stats.
+<b style="color:#bef264">Platform Migration System</b>: 
+Developed system to automate migration of clients from old platform to new platform post acquisition. 
+The setup was automated through UI which allowed to pick specific users and their assets required for migration while having
+option to just move the data one time (mainly for demo purpose) or keep it in sync between the two platforms.
+The system was designed to ingest upto 10GB data per day but could be scaled up horizontally to achieve higher limits. 
 </li>
 </ul>
   {{< /timelineItem >}}
@@ -68,9 +58,8 @@ track entity-level stats.
 
   
   
-  <b style="color:#bef264">Jupyterhub</b>: Developed an RBAC enabled interface to streamline daily operational tasks for customer success
-managers reducing the dependency on developers. Automated client data ingestion and report extraction,
-improving workflow efficiency.
+  <b style="color:#bef264">Jupyterhub</b>: Developed an RBAC enabled interface to streamline daily operational 
+  tasks which helped in reducing dependency on developers.
   {{< /timelineItem >}}
 
 {{< /timeline >}}

@@ -15,13 +15,9 @@ showComments: false
 showZenMode: false
 ---
 
-Hello, my name is Sohil, I'm a Software Engineer with a strong passion to deep dive technologies
-to build scalable and robust systems. Currently I'm specializing in `Backend Development` with `Python`
-while constantly learning and exploring new technologies. 📚
-
-- Currently working on: **["DSA, System Design (interviews 😅)"]**
-- I intend to work on: **["Go", "Build My Pokedex"]**
-
+Hello, my name is Sohil, and I'm a Software Engineer with a strong passion to develop tools and technologies which helps in automating processes.
+Majority of my professional experience in automating has been around `Python` but I've also tinkered around with `JavaScript` (majorly for frontend development).
+Apart from work, I like playing `DOTA` and `Badminton` in my spare time.
 ## 🛠️ Skills
 
 - {{< keywordList >}}<b style="color:#bef264">Language</b>: 
@@ -50,14 +46,18 @@ while constantly learning and exploring new technologies. 📚
   {{< /keywordList >}}
 
 
-## 💬 Languages
-
-I'm fluent in reading, writing, speaking and listening English and Hindi. I've recently started studying Arabic as well.
+## 💬 Spoken Languages
+{{< keywordList >}}<b style="color:#bef264"></b> 
+{{< keyword >}} English {{< /keyword >}}
+  {{< keyword >}} Hindi {{< /keyword >}}
+  {{< /keywordList >}}
 
 
 ## 📊 GitHub Stats
 
-I tend to program occasionally in my free time. My personal Github mainly contains some own projects or repositories for learning new tools.
+My personal Github mainly contains some own projects or repositories for learning new tools 
+however recently I've picked up game development using Godot engine and looking forward to share
+small but fun games with the world.
 
 ![](https://github-readme-stats.vercel.app/api?username=khansohil530&theme=monokai&hide_border=false&include_all_commits=false&count_private=false)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=khansohil530&theme=monokai&hide_border=false)
