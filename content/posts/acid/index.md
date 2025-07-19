@@ -1,8 +1,8 @@
 ---
-title: "Understanding ACID Properties of Database System"
+title: "ACID Properties: Core Concepts for Database Systems"
 description: "ACID"
 categories: [Database]
-tags: [Concept, ACID]
+tags: [Fundamentals, ACID]
 date: 2025-06-14
 ---
 
