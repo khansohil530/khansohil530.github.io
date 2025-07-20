@@ -5,13 +5,10 @@ categories: [Database]
 tags: [Fundamentals, Internals]
 date: 2025-06-20
 ---
-**Review**
-In this article, we'll explore the fundamental concepts of database storage, 
-from the basic building blocks of pages and indexes to advanced storage engines and optimization techniques.
-By the end, you'll have a solid understanding of how modern databases manage, store, and retrieve data efficiently.
 
-Understanding database internals helps you:
-
+In this article, we'll explore how databases store data on disk and how it impacts different kinds of workloads.
+By the end, you'll have a clear understanding of how modern databases manage, store, and retrieve data. 
+This can help you 
 - **Write better queries** that work with, not against, the database engine
 - **Design more efficient schemas** that minimize storage overhead and maximize performance
 - **Troubleshoot performance issues** by understanding what causes bottlenecks
