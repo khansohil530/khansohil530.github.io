@@ -1,0 +1,11 @@
+<div style="display: flex; margin:auto;">
+  <iframe
+    src="{{ .Get "src" }}"
+    title="{{ .Get "title" | default "PICO-8 Cartridge" }}"
+    width="{{ .Get "w" | default "512" }}"
+    height="{{ .Get "h" | default "512" }}"
+    style="border:none; image-rendering:pixelated; background:#111;"
+    loading="lazy"
+    allowfullscreen
+  ></iframe>
+</div>
