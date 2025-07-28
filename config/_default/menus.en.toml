@@ -34,10 +34,10 @@ weight = 20
 #  name = "Parent"
 #  weight = 20
 
-[[main]]
-  name = "Games"
-  pageRef = "games"
-  weight = 50
+#[[main]]
+#  name = "Games"
+#  pageRef = "games"
+#  weight = 50
 
 #[[main]]
 #  name = "example sub-menu 2"
