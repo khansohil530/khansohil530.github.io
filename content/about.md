@@ -22,6 +22,7 @@ Apart from work, I like playing `DOTA` and `Badminton` in my spare time.
 
 - {{< keywordList >}}<b style="color:#bef264">Language</b>: 
 {{< keyword >}} Python {{< /keyword >}}
+{{< keyword >}} Go {{< /keyword >}}
   {{< keyword >}} Javascript {{< /keyword >}}
   {{< keyword >}} SQL {{< /keyword >}}
   {{< /keywordList >}}
