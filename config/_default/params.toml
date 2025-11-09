@@ -44,10 +44,10 @@ layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixe
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/background.jpg" # used in: hero, and card
-  showRecent = true
-  showRecentItems = 3
-  showMoreLink = true
-  showMoreLinkDest = "/posts/"
+  showRecent = false
+#  showRecentItems = 3
+#  showMoreLink = true
+#  showMoreLinkDest = "/posts/"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background

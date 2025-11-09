@@ -1,5 +1,6 @@
 ---
-title: "Resume"
+title: "About"
+description: "About page content"
 showDate: false
 showViews: false
 showLikes: false
@@ -13,8 +14,7 @@ showWordCount: false
 showComments: false
 showZenMode: false
 ---
-
-## 👨‍💻 Experience
+## Work Experience
 
 {{< timeline >}}
 
@@ -23,30 +23,16 @@ showZenMode: false
     header="Alphasense" 
     badge="Jan 2024 - Nov 2024" 
     subheader="Software Engineer 2">}} 
-<ul>
-<li>
-<b style="color:#bef264">Integrations</b>: Contributed toward development of extensions for third party document management tools to ingest document within Alphasense and keep them in sync with origin in real time.
-</li>
-<li>
-<b style="color:#bef264">Security Improvements</b>: Enhanced security around storage of user tokens for third party apps by developing encrypted storage system. 
-Existing production users were migrated to encrypted version without any impact or downtime.
-</li>
-</ul>
-  {{< /timelineItem >}}
-  {{< timelineItem 
-    icon="code" 
-    header="Alphasense" 
-    badge="June 2022 - Jan 2024" 
-    subheader="Software Engineer" >}}
-<ul>
-<li>
-<b style="color:#bef264">Platform Migration System</b>: 
-Developed system to automate migration of clients from old platform to new platform post acquisition. 
-The setup was automated through UI which allowed to pick specific users and their assets required for migration while having
-option to just move the data one time (mainly for demo purpose) or keep it in sync between the two platforms.
-The system was designed to ingest upto 10GB data per day but could be scaled up horizontally to achieve higher limits. 
-</li>
-</ul>
+    <ul>
+        <li>
+            <b style="color:#bef264">Integrations</b>: 
+            Developed 3rd party connectors to synchronize content within platform.
+        </li>
+        <li>
+            <b style="color:#bef264">Migration System</b>:
+            Developed migration system to ingest client content in bulk.
+        </li>
+    </ul>
   {{< /timelineItem >}}
 
 
@@ -58,14 +44,14 @@ The system was designed to ingest upto 10GB data per day but could be scaled up 
 
   
   
-  <b style="color:#bef264">Jupyterhub</b>: Developed an RBAC enabled interface to streamline daily operational 
-  tasks which helped in reducing dependency on developers.
+  Integrated <b style="color:#bef264">Jupyterhub</b> 
+  to streamline daily operational tasks and reduce dependency on developers.
   {{< /timelineItem >}}
 
 {{< /timeline >}}
 
 
-## 👨‍🎓 Education
+## Education
 
 {{< timeline >}}
 
@@ -86,3 +72,49 @@ Aug 2017 – Jul 2022
   {{< /timelineItem >}}
 
 {{< /timeline >}}
+
+## Skills
+
+- {{< keywordList >}}<b style="color:#bef264">Language</b>: 
+{{< keyword >}} Python {{< /keyword >}}
+{{< keyword >}} Go {{< /keyword >}}
+  {{< keyword >}} Javascript {{< /keyword >}}
+  {{< keyword >}} SQL {{< /keyword >}}
+  {{< /keywordList >}}
+- {{< keywordList >}}<b style="color:#bef264">Technologies</b>: 
+{{< keyword >}} FastAPI {{< /keyword >}}
+  {{< keyword >}} PostgreSQL {{< /keyword >}}
+  {{< keyword >}} MongoDB {{< /keyword >}} 
+  {{< keyword >}} Cassandra {{< /keyword >}}
+  {{< keyword >}} Redis {{< /keyword >}}
+  {{< keyword >}} AWS {{< /keyword >}}
+  {{< keyword >}} Docker {{< /keyword >}}
+  {{< keyword >}} Kubernetes {{< /keyword >}}
+  {{< keyword >}} Helm {{< /keyword >}}
+  {{< keyword >}} RabbitMQ {{< /keyword >}}
+  {{< keyword >}} Kafka {{< /keyword >}}
+  {{< keyword >}} Git {{< /keyword >}}
+  {{< keyword >}} GitHub Actions {{< /keyword >}}
+  {{< keyword >}} Prometheus {{< /keyword >}}
+  {{< keyword >}} Grafana {{< /keyword >}}
+  {{< keyword >}} Loki {{< /keyword >}}
+  {{< keyword >}} OpenTelemetry {{< /keyword >}}
+  {{< /keywordList >}}
+
+
+## Spoken Languages
+{{< keywordList >}}<b style="color:#bef264"></b> 
+{{< keyword >}} English {{< /keyword >}}
+  {{< keyword >}} Hindi {{< /keyword >}}
+  {{< /keywordList >}}
+
+
+## GitHub Stats
+
+My personal Github mainly contains some own projects or repositories for learning new tools 
+however recently I've picked up game development using Godot engine and looking forward to share
+small but fun games with the world.
+
+![](https://github-readme-stats.vercel.app/api?username=khansohil530&theme=monokai&hide_border=false&include_all_commits=false&count_private=false)
+![](https://github-readme-streak-stats.herokuapp.com/?user=khansohil530&theme=monokai&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=khansohil530&theme=monokai&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
