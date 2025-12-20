@@ -14,7 +14,16 @@ showWordCount: false
 showComments: false
 showZenMode: false
 ---
+
+---
+
+{{< button href="/files/SohilSDEResume.pdf" target="_blank" rel="noopener" >}}
+{{< icon "download" >}} Detailed Resume (PDF)
+{{< /button >}}
+
+
 ## Work Experience
+
 <table>
     <thead>
         <tr>
@@ -92,4 +101,5 @@ showZenMode: false
 {{< keyword >}} Cloud Computing {{< /keyword >}}
 {{< keyword >}} Microservices {{< /keyword >}}
 {{< keyword >}} Distributed Systems {{< /keyword >}}
+{{< keyword >}} Infrastructure As Code {{< /keyword >}}
 {{< /keywordList >}}
