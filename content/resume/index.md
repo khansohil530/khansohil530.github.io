@@ -36,6 +36,13 @@ showZenMode: false
     </thead>
     <tbody>
         <tr>
+            <td><img class="customEntitityLogo" src="lyric.png"/></td>
+            <td><a href="https://www.lyric.tech/" target="_blank">Lyric</a></td>
+            <td>Software Engineer 2</td>
+            <td>1/2026 - Present</td>
+            <td>Hybrid <br> Hyderabad, India</td>
+        </tr>
+        <tr>
             <td rowspan=3><img class="customEntitityLogo" src="alphasense.png"/></td>
             <td rowspan=3><a href="https://www.alpha-sense.com/" target="_blank">Alpha sense</a></td>
         </tr>
